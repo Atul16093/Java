@@ -8,10 +8,19 @@ interface A{
         System.out.print("It's a functional interface default method ");
     }
 }
+//Main  class
 public class Test2{
     public static void main(String []args){
-        A obj = ()->{ System.out.print("It's a m1 method of interface");
+    //In the functional interface so we just only write code of body we don't need to overide the method name like this , we just type code for body.
+        /* A obj = ()->{
+            public void m1(){
+                System.out.print("It's a m1 method of interface");
+                }
                 };
         obj.m1();
+        */
+           A obj = ()->{System.out.print("It's a m1 method of interface"); };
+        obj.m1();
+        
     }
 }
