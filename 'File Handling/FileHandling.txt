@@ -1,0 +1,10 @@
+Q1 What is File Handling in java ?
+-> File Handling Means Reading and writing data, to a file .In java the 'java.io' package is used for file Handling . This package provide us 
+  Classes and methods to work with files.
+  There are three types of data file in java -: 
+  .txt , .csv(Comma seprated value) , .xlsx
+We can convert over csv file to xlsx file and xlsx file to csv file .
+.CSV file can be read directly/easily in the form but , whenever we use xlsx file we need a separate software .
+Q2. What do you understand by file Handling ?
+-> File means collection of data/bundles of data and  the meaning of handling is the process , process what to modify , update , delete this are 
+the process.
