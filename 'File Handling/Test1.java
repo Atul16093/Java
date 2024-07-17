@@ -28,7 +28,7 @@ public class Test1{
         }
     try{
     FileWriter fw = new FileWriter(file);
-        fw.write("This is the first content by the file writer ");
+        fw.write("This is the first content by the file writer Test1 ");
         System.out.println("File Written successfully");
         //Writer class close must be important, If we not closed the file We cann't see the output
         fw.close();
