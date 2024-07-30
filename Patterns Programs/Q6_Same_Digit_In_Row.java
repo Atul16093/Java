@@ -1,3 +1,10 @@
+/*
+111111
+222222
+333333
+444444
+555555
+ */
 import java.util.Scanner;
 
 public class Q6_Same_Digit_In_Row {
