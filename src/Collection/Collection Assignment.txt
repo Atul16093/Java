@@ -1,0 +1,170 @@
+1. WAP to store string data in arraylist and convert all the names into upper case which starts from a.
+2. WAP to store integer values in arraylist and display only those values which are even.
+3. WAP to store integer values in arraylist and display only those numbers which are perfect numbers.
+4.
+ Modify an ArrayList
+Objective: Develop a program to perform operations on an ArrayList.
+Tasks:
+Add 5 integers to an ArrayList.
+Replace the second element with a new integer.
+Remove the third element.
+Display the updated ArrayList.
+
+5.
+Search in an ArrayList
+Objective: Write a program to search for an element in an ArrayList.
+
+Tasks:
+
+Allow the user to enter multiple strings into an ArrayList.
+Prompt the user to enter a string to search for.
+Check if the string exists in the list and display its position(s).
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+QNO 1.
+
+Write a Java program that takes integer data from the user and adds it to an ArrayList. Perform the following operations:
+
+1.	Check if a given number exists in the ArrayList or not.
+2.	Remove a particular element from the ArrayList and display the updated ArrayList.
+     3. Print all the elements of the ArrayList using a for loop.
+   4. Print all the elements using the Iterator interface.
+   5. Print all the elements using the for-each loop.
+   6. Print all the elements in descending order.
+  7. Count how many elements are there in the ArrayList. 
+Input format :
+The first line of the input should contain an integer representing the size of the ArrayList
+The second line of the input should contain the elements to be added to the ArrayList
+The third line of the input should contain the number to be searched in the ArrayList.
+The fourth line of the input should contain the number to be removed from the ArrayList
+Output format :
+The output should display the elements in the list after the removal.
+Refer to the sample output for reference.
+Sample test cases :
+Input 1 :
+5
+10 12 14 16 18
+10
+20
+Output 1 :
+Number 10 exists in the ArrayList
+ArrayList after removing 20
+10 12 14 16 18 
+ArrayList elements using normal for loop
+10 12 14 16 18 
+ArrayList elements using Iterator interface
+10 12 14 16 18 
+ArrayList elements using for-each loop
+10 12 14 16 18 
+ArrayList elements in descending order
+18 16 14 12 10 
+Number of elements in the ArrayList: 5
+Input 2 :
+8
+20 18 17 45 89 63 27 90
+10
+20
+Output 2 :
+Number 10 not exists in the ArrayList
+ArrayList after removing 20
+18 17 45 89 63 27 90 
+ArrayList elements using normal for loop
+18 17 45 89 63 27 90 
+ArrayList elements using Iterator interface
+18 17 45 89 63 27 90 
+ArrayList elements using for-each loop
+18 17 45 89 63 27 90 
+ArrayList elements in descending order
+90 89 63 45 27 18 17 
+Number of elements
+
+
+
+QNO 2.
+ArrayList of Objects
+Objective: Use an ArrayList to manage custom objects.
+Tasks:
+
+Create a Student class with attributes like name, age, and marks.
+Add multiple Student objects to an ArrayList.
+Display the details of all students.
+
+QNO 3. WAP to create product class with attributes pid, pname, pprice, plocation. create setter, getter and constructor in the class. create 5 objects and store them in arraylist...display all products using for each loop and ListIterator.
+after that display only those products whose price is above 500.
+
+QNO 4:
+
+Create a Java program that enables users to dynamically input employee details and store them in an ArrayList.
+
+The program should include a class named "Employee" with private attributes:
+1.	employeeName - String
+2.	employeeId - int
+3.	employeeDepartment - String
+
+The Employee class should have the following methods:
+1.	Write a getter method for the above-mentioned attributes.
+2.	An overridden toString() method that returns the employee's details.
+Input format :
+The first line consists of the size of the ArrayList.
+The next consecutive line contains employeeName, employeeId, employeeDepartment.
+Output format :
+The output should display the list of employees.
+Refer to the sample output for reference.
+Sample test cases :
+Input 1 :
+1
+Elon
+101
+CEO
+Output 1 :
+List of All Employees
+Employee [employeeName=Elon, employeeId=101, employeeDepartment=CEO]
+Input 2 :
+2
+Elon
+101
+CEO
+Micheal
+1001
+Manager
+Output 2 :
+List of All Employees
+Employee [employeeName=Elon, employeeId=101, employeeDepartment=CEO]
+Employee [employeeName=Micheal, employeeId=1001, employeeDepartment=Manager]
+
+QNo 5:
+
+You are tasked with developing a simple inventory management system for a library that keeps track of book titles using a LinkedList. The program should allow the user to input a specified number of book titles and then display the list of books in the inventory.
+Input format :
+The first line of the input contains the number of books.
+The subsequent lines each contain the title of a book.
+Output format :
+Displays the final list of books
+Refer to the sample output
+Sample test cases :
+Input 1 :
+2
+The Great Gatsby
+Moby Dick
+Output 1 :
+Books in the inventory:
+The Great Gatsby
+Moby Dick
+Input 2 :
+5
+The Alchemist
+Sapiens: A Brief History of Humankind
+Educated
+Becoming
+The Book Thief
+Output 2 :
+Books in the inventory:
+The Alchemist
+Sapiens: A Brief History of Humankind
+Educated
+Becoming
+The Book Thief
